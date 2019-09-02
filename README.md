@@ -21,6 +21,7 @@ So what you need in all ?
 
 Alternatively, To run command without any user interaction. 
 > For below command you need PROJECT_ID. To retrieve it, you can checkout output of https://<SERVER_URL>/v3/projects?sort=description. Check the "data" field in the json and you will get all the projects details in it. The "id" field is what your project id will be. Check the "name" field to cross verify your project
+
 `/usr/bin/rancher login https://<SERVER_URL> --token <BEARER_TOKEN> --skip-verify --context <PROJECT_ID>`
 
 ## List of running containers/jobs/workload
