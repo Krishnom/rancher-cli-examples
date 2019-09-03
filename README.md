@@ -9,7 +9,7 @@ So what you need in all ?
   - Windows/Linux/MacOs
   - Rancher CLI binary for you host [rancher-cli-download][rancher-cli-binary]
   - kubectl for firing containers in rancher [installing-kubectl][install-kubectl]
-  - Bearer Token [generate token][How to Generating Bearer Token]
+  - Bearer Token [generate token][How Generating Bearer Token]
   > Please use "no-scope" while creating API for user. [see this issue][rancher-apitoken-scoped-to-cluser-ssue]
   
 
