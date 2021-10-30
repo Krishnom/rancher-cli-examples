@@ -1,6 +1,8 @@
 # Rancher CLI Usage
 
-## Example commands to operate rancher right from commandline on any machine.
+Repo containing resource for rancher deployment and usage. 
+
+
 
 ## Prerequisites
 While most of the stuffs are documented at [rancher-cli][rancher-cli-doc] (and it will work almost everytime) , This document contains any issue that you might while using the rancher's cli.
@@ -12,7 +14,7 @@ So what you need in all ?
   - Bearer Token [generate token][How Generating Bearer Token]
   > Please use "no-scope" while creating API for user. [see this issue][rancher-apitoken-scoped-to-cluser-ssue]
   
-
+### Example commands to operate rancher right from commandline on any machine.
 > Assuming your rancher-cli binary is at /usr/bin/rancher
 ## Login
 `/usr/bin/rancher login https://<SERVER_URL> --token <BEARER_TOKEN>`
